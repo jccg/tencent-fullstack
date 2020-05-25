@@ -12,4 +12,4 @@ inputs:
   vpcConfig:
     vpcId: ${output:${stage}:${app}:serverlessVpc.vpcId}
     subnetId: ${output:${stage}:${app}:serverlessVpc.subnetId}
-  extranetAccess: false
+  extranetAccess: true
